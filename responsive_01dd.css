@@ -1,0 +1,100 @@
+/* ----- RESET ----- */
+
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+
+/* ----- MAIN STYLES ----- */
+
+body{
+	background-color: #dd24a2;
+}
+
+#pagewrap {
+	width: 100%;
+	max-width: 960px;
+	min-width: 500px;
+	height: 500px;	
+	text-align: center;
+	margin: auto;
+	position: relative;
+	background-color: #984949;
+}
+
+#box1, #box2, #box3 {
+	height: 400px;
+	display: block;
+	margin: auto;
+	float: left;
+	position: relative;
+}
+
+#box1{
+	background-color: #f6f6f6;
+	width: 40%;
+}
+
+#box2{
+	background-color: #b9b9b9;
+	width: 30%;
+}
+
+#box3{
+	background-color: #9b9797;
+	width: 30%;
+}
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+@media screen and (max-width: 980px){
+	
+body {
+	background-color: #225bc4;
+}
+
+	
+}
+
+
+@media screen and (max-width: 500px){
+	
+body {
+	background-color: #16be3d;
+}
+
+#pagewrap {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+#box1, #box2, #box3{
+	width: 90%;
+	height: 200px;
+	margin-left: 5%;
+}
+	
+}
+
+
